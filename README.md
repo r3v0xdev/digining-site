@@ -1,6 +1,6 @@
 Site link: https://r3v0xdev.github.io/digining-site/
 
-First site, testing how github works
+First site, testing how github works, currently site works best on desktop, it's subject to change in future after making some amendmends or taking a full rewrite of code
 
 To be done ⚡
 - RWD
