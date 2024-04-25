@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 25px;
+  color: rgb(98, 132, 234);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fa-coins {
+  font-size: 22px;
+  color: gold;
+}
+
+.product-info {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  text-align: center;
+  transform: translate(-50%, 0%);
+}
+.product-info h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.product-info h2 {
+  letter-spacing: 1px;
+  padding: 15px;
+  font-size: 42px;
+}
+.product-info p {
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  position: absolute;
+  width: 1000px;
+  top: 200px;
+  left: 50%;
+  grid-template-columns: 1fr 1fr; /* Initially, two equal-width columns */
+  grid-auto-rows: auto;
+  grid-gap: 15px;
+  transform: translate(-50%, 0%);
+}
+
+.card {
+  overflow: hidden;
+  padding: 30px;
+  height: 500px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.379);
+}
+
+.card:nth-child(1) {
+  grid-column: 1/span 2; /* First item spans both columns */
+}
+
+.card:nth-child(n+4) {
+  grid-column: auto; /* Reset to default for elements starting from 4th */
+}
+
+.card:nth-child(3n+1) {
+  grid-column: 1/span 2; /* Reset grid every third item */
+}
+
+.welcomeBox {
+  position: relative;
+  height: 700px;
+  background-color: #d2e1ff;
+}
+.welcomeBox .header {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+  width: 70%;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.379);
+  transform: translate(-50%, 0%);
+}
+.welcomeBox .header .nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcomeBox .header .nav .links > a {
+  margin: 20px;
+  font-size: 14px;
+  color: #8b8989;
+  font-weight: normal;
+}
+.welcomeBox .header .nav .accountLogin > .sign-up {
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.log-in:hover {
+  background-color: #cfcfcf;
+}
+
+.sign-up {
+  color: #fff;
+  background-color: #335cef;
+}
+
+.sign-up:hover {
+  background-color: #2844ab;
+}
+
+.catchPhrase {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000;
+  transform: translate(-50%, -50%);
+}
+.catchPhrase h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+.catchPhrase p {
+  font-size: 25px;
+  padding: 30px 0px;
+}
+.catchPhrase .sign-up {
+  font-size: 25px;
+}
+
+.everyday-essentials-box {
+  position: relative;
+  height: 2100px;
+  width: 100%;
+  background-color: #f4f8ff;
+}
+.everyday-essentials-box .card1,
+.everyday-essentials-box .card6 {
+  background-color: #5079f8;
+}
+.everyday-essentials-box .card2,
+.everyday-essentials-box .card5 {
+  background-color: #fff;
+  color: #000;
+}
+.everyday-essentials-box .card2 p,
+.everyday-essentials-box .card5 p {
+  color: #707279;
+}
+.everyday-essentials-box .card3 {
+  background-color: #ffb341;
+}
+.everyday-essentials-box .card4 {
+  background-color: #343a46;
+}
+
+.rectangle {
+  display: flex;
+  height: 400px;
+}
+.rectangle .card-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rectangle .card-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.rectangle .card-text p {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.rectangle .card-text a {
+  color: #fff;
+}
+.rectangle .card-image img {
+  width: 500px;
+  height: 500px;
+}
+
+.square {
+  height: 500px;
+}
+.square .card-text h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.square .card-text p {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.square .card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.investments-box {
+  position: relative;
+  height: 1500px;
+  width: 100%;
+  background-color: #ecf2ff;
+}
+.investments-box .card1 {
+  background-color: #343a46;
+}
+.investments-box .card2 {
+  background-color: #5079f8;
+}
+.investments-box .card3 {
+  background-color: #fff;
+  color: #000;
+}
+.investments-box .trust {
+  position: absolute;
+  left: 50%;
+  top: 1200px;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+.investments-box .trust button {
+  font-size: 30px;
+  margin: 20px;
+}
+.investments-box .trust p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer {
+  position: relative;
+  height: 400px;
+  color: white;
+  background-color: #343a46;
+}
+.footer .digining {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  height: 200px;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
