@@ -1,3 +1,5 @@
+Site link: https://r3v0xdev.github.io/digining-site/
+
 First site, testing how github works
 
 To be done ⚡
