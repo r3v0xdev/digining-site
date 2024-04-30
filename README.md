@@ -6,7 +6,7 @@ To be done ⚡
 - RWD
 - Add more than landing page
 - Log in
-- Footer
+- Footer ✅
 - Restructurize files (scss to be split into few files, with values that are used commonly, add color palete etc.)
 - And more
 
