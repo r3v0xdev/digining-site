@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #343a46;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: transparent;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 25px;
+  color: #5079f8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fa-coins {
+  font-size: 22px;
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+  color: #222630;
+  font-weight: bold;
+}
+
+.box-design {
+  background-color: rgba(255, 255, 255, 0.737254902);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+
+body {
+  background-color: #d2e1ff;
+  background-image: url(../img/login-bg2.svg);
+  background-size: 150%;
+  background-position: 0px -650px;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+}
+.login-box .back {
+  position: absolute;
+  left: -60px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+.login-box .back i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-box .back:hover i {
+  color: #3760dc;
+}
+.login-box div.logo {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+}
+.login-box div.logo p,
+.login-box div.logo i {
+  padding: 0;
+  font-size: 40px;
+  margin-right: 5px;
+}
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 300px;
+}
+.login-box form input {
+  height: 50px;
+  width: 410px;
+  padding: 20px;
+  margin: 0px auto;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
+}
+.login-box form button {
+  position: relative;
+  width: 200px;
+  left: 50%;
+  color: #fffcfc;
+  background-color: #5079f8;
+  transform: translate(-50%, 0%);
+}
+.login-box form button:hover {
+  background-color: #3760dc;
+}
+.login-box form .login-links {
+  display: flex;
+  justify-content: space-around;
+}
+.login-box form .login-links a:hover {
+  color: #3760dc;
+}/*# sourceMappingURL=login.css.map */

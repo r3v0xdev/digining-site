@@ -1,0 +1,53 @@
+@use './colors' as c;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: c.$card-grey;
+}
+
+button {
+	padding: 12px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: transparent;
+	background-color: transparent;
+	box-shadow: c.$shadow;
+	cursor: pointer;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.logo {
+	padding-left: 20px;
+	font-size: 25px;
+	color: c.$light-blue;
+	text-decoration: none;
+	font-weight: bold;
+}
+.fa-coins {
+	font-size: 22px;
+	color: gold;
+}
+
+a {
+	text-decoration: none;
+	color: c.$main-title-dark;
+	font-weight: bold;
+}
+
+//login site
+
+.box-design {
+	background-color: #ffffffbc;
+	border-radius: 5px;
+	box-shadow: c.$shadow;
+	backdrop-filter: blur(20px);
+}

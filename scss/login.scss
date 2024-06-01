@@ -1,0 +1,148 @@
+@use './main-styles';
+@use './colors' as c;
+
+body {
+	background-color: #d2e1ff;
+	background-image: url(../img/login-bg2.svg);
+	background-size: 150%;
+	background-position: 0px -650px;
+}
+
+//iteracja 1
+
+.login-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	.back {
+		position: absolute;
+		left: -60px;
+		width: 50px;
+		height: 50px;
+		background-color: #fff;
+		i {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.back:hover {
+		i {
+			color: c.$darker-blue;
+		}
+	}
+
+	div.logo {
+		display: flex;
+		padding: 20px 0px;
+		justify-content: center;
+		p,
+		i {
+			padding: 0;
+			font-size: 40px;
+			margin-right: 5px;
+		}
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 500px;
+		height: 300px;
+		input {
+			height: 50px;
+			width: 410px;
+			padding: 20px;
+			margin: 0px auto;
+			border: none;
+			border-radius: 15px;
+			box-shadow: c.$shadow;
+		}
+		button {
+			position: relative;
+			width: 200px;
+			left: 50%;
+			color: c.$main-white;
+			background-color: c.$light-blue;
+			transform: translate(-50%, 0%);
+		}
+
+		button:hover {
+			background-color: c.$darker-blue;
+		}
+		.login-links {
+			display: flex;
+			justify-content: space-around;
+			a:hover {
+				color: c.$darker-blue;
+			}
+		}
+	}
+}
+
+//iteracja 2
+
+// .login-box {
+// 	position: absolute;
+// 	display: flex;
+// 	top: 50%;
+// 	left: 50%;
+// 	width: 1000px;
+// 	height: 400px;
+// 	background-color: #ffffffbc;
+// 	border-radius: 10px;
+// 	box-shadow: c.$shadow;
+// 	backdrop-filter: blur(15px);
+// 	transform: translate(-50%, -50%);
+// 	.logo {
+// 		display: flex;
+// 		flex-basis: 50%;
+// 		justify-content: center;
+// 		align-items: center;
+// 		padding: 0px;
+// 		a,
+// 		i {
+// 			font-size: 70px;
+// 			margin-right: 5px;
+// 		}
+// 	}
+// 	.form {
+// 		display: flex;
+// 		flex-direction: column;
+// 		flex-basis: 50%;
+// 		justify-content: space-evenly;
+// 	}
+// 	input {
+// 		display: flex;
+// 		height: 50px;
+// 		width: 400px;
+// 		padding: 20px;
+// 		margin: 0 0 20px 0;
+// 		border: none;
+// 		border-radius: 5px;
+// 	}
+// 	button {
+// 		position: relative;
+// 		width: 70px;
+// 		color: c.$main-white;
+// 		background-color: c.$light-blue;
+// 	}
+
+// 	button:hover {
+// 		background-color: c.$darker-blue;
+// 	}
+// 	.login-links {
+// 		margin: 20px 0px 0px 0px;
+// 		a {
+// 			padding: 0 105px 0 0;
+// 		}
+// 		a:hover {
+// 			color: c.$darker-blue;
+// 		}
+// 	}
+// }

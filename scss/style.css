@@ -2,21 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #343a46;
-}
-
-button {
-  padding: 12px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: transparent;
-  background-color: transparent;
-  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
-  cursor: pointer;
 }
 
 .wrapper {
@@ -25,10 +15,21 @@ button {
   max-width: 1200px;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
 .logo {
   padding-left: 20px;
   font-size: 25px;
-  color: #5079f8;
+  color: rgb(98, 132, 234);
   text-decoration: none;
   font-weight: bold;
 }
@@ -36,25 +37,6 @@ button {
 .fa-coins {
   font-size: 22px;
   color: gold;
-}
-
-a {
-  text-decoration: none;
-  color: #222630;
-  font-weight: bold;
-}
-
-.box-design {
-  background-color: rgba(255, 255, 255, 0.737254902);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
-}
-
-img {
-  width: 200px;
-  height: 200px;
 }
 
 .product-info {
@@ -96,9 +78,9 @@ img {
   overflow: hidden;
   padding: 30px;
   height: 500px;
-  color: #fffcfc;
+  color: #fff;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
+  box-shadow: 0px 0px 5px rgba(85, 84, 84, 0.192);
 }
 
 .card:nth-child(1) {
@@ -125,8 +107,8 @@ img {
   width: 70%;
   height: 80px;
   border-radius: 20px;
-  background-color: #fffcfc;
-  box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.192);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.178);
   transform: translate(-50%, 0%);
 }
 .welcomeBox .header .nav {
@@ -138,24 +120,33 @@ img {
 .welcomeBox .header .nav .links > a {
   margin: 20px;
   font-size: 14px;
-  color: #737682;
+  color: #8b8989;
   font-weight: normal;
 }
-.welcomeBox .header .nav .accountLogin > a > .sign-up {
+.welcomeBox .header .nav .accountLogin > .sign-up {
   margin-right: 20px;
 }
 
+button {
+  padding: 12px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border: transparent;
+  background-color: transparent;
+}
+
 .log-in:hover {
-  background-color: #e9e9e9;
+  background-color: #cfcfcf;
 }
 
 .sign-up {
-  color: #fffcfc;
-  background-color: #5079f8;
+  color: #fff;
+  background-color: #335cef;
 }
 
 .sign-up:hover {
-  background-color: #3760dc;
+  background-color: #2844ab;
 }
 
 .catchPhrase {
@@ -193,26 +184,26 @@ img {
 }
 .everyday-essentials-box .card1 a,
 .everyday-essentials-box .card6 a {
-  color: #fffcfc;
+  color: #fff;
 }
 .everyday-essentials-box .card2,
 .everyday-essentials-box .card5 {
-  background-color: #fffcfc;
+  background-color: #fff;
   color: #222630;
 }
 .everyday-essentials-box .card2 p,
 .everyday-essentials-box .card5 p {
-  color: #737682;
+  color: #707279;
 }
 .everyday-essentials-box .card2 a,
 .everyday-essentials-box .card5 a {
-  color: #5079f8;
+  color: #103eec;
 }
 .everyday-essentials-box .card3 {
   background-color: #ffb341;
 }
 .everyday-essentials-box .card3 a {
-  color: #fffcfc;
+  color: #fff;
 }
 .everyday-essentials-box .card4 {
   background-color: #343a46;
@@ -229,15 +220,15 @@ img {
   justify-content: center;
 }
 .rectangle .card-text h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
 }
 .rectangle .card-text p {
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px 0;
 }
 .rectangle .card-text a {
-  color: #fffcfc;
+  color: #fff;
 }
 .rectangle .card-image img {
   width: 500px;
@@ -248,11 +239,11 @@ img {
   height: 500px;
 }
 .square .card-text h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
 }
 .square .card-text p {
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px 0;
 }
 .square .card-image {
@@ -273,10 +264,10 @@ img {
   background-color: #5079f8;
 }
 .investments-box .card2 a {
-  color: #fffcfc;
+  color: #fff;
 }
 .investments-box .card3 {
-  background-color: #fffcfc;
+  background-color: #fff;
   color: #222630;
 }
 .investments-box .card3 a {
@@ -302,7 +293,7 @@ img {
 footer {
   max-width: 1200px;
   margin: 0 auto;
-  color: #fffcfc;
+  color: #fff;
   padding: 20px;
   overflow: hidden;
 }
@@ -329,6 +320,7 @@ footer .footer-content .footer-left .footer-description button {
 footer .footer-content .footer-links {
   flex-basis: 50%;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: flex-end;
   align-items: center;
   margin-top: 40px;
@@ -337,18 +329,15 @@ footer .footer-content .footer-links img {
   width: 150px;
   height: 45px;
 }
-footer .footer-content div a:hover {
-  color: #5079f8;
-}
 footer .footer-content .footer-link {
   text-decoration: none;
-  color: #fffcfc;
+  color: #fff;
   padding-right: 20px;
 }
 footer .footer-content .footer-line {
   flex-grow: 1;
   height: 1px;
-  background-color: #737682;
+  background-color: #666;
   margin: 10px 10px 0px 0px;
 }
 footer .footer-content .footer-copyright {
@@ -357,10 +346,9 @@ footer .footer-content .footer-copyright {
   margin-top: 40px;
   justify-content: space-between;
 }
-footer .footer-content .footer-copyright div a {
+footer .footer-content .footer-copyright div i {
   padding-right: 10px;
-  color: #fffcfc;
 }
-footer .footer-content .footer-copyright div a:hover {
+footer .footer-content .footer-copyright div i:hover {
   color: #5079f8;
 }/*# sourceMappingURL=style.css.map */
