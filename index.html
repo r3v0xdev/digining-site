@@ -3,139 +3,147 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 		<script src="https://kit.fontawesome.com/e2e70cd4c7.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="./css/style.css" />
+
 		<title>Digining</title>
 	</head>
 	<body>
-		<section class="welcomeBox">
+		<section class="welcome-box">
 			<header class="header">
 				<nav class="nav">
-					<a class="logo" href="#"><i class="fa-solid fa-coins"></i> Digining</a>
-					<div class="links">
-						<a href="#">Personal <i class="fa-solid fa-chevron-down"></i></a><a href="#">Buisness <i class="fa-solid fa-chevron-down"></i></a><a href="#">Digining>18 <i class="fa-solid fa-chevron-down"></i></a
-						><a href="#">Company <i class="fa-solid fa-chevron-down"></i></a>
+					<a class="logo" href="#" alt="homepage"><i class="fa-solid fa-coins"></i>Digining</a>
+					<div class="burger-icon">
+						<button>
+							<i class="fa-solid fa-bars" aria-labelledby="show subcategories"></i>
+						</button>
+
 					</div>
-					<div class="accountLogin">
-						<a href="login.html"><button class="log-in">Login</button></a>
-						<a href="login.html"><button class="sign-up">Sign Up</button></a>
+					<div class="links">
+						<a href="#" aria-labelledby="subcategory Personal">Personal <i class="fa-solid fa-chevron-down"></i></a><a href="#" aria-labelledby="subcategory Business">Buisness <i class="fa-solid fa-chevron-down"></i></a><a href="#" aria-labelledby="subcategory Diggining under 18">Digining>18 <i class="fa-solid fa-chevron-down"></i></a
+						><a href="#" aria-labelledby="subcategory Company">Company <i class="fa-solid fa-chevron-down"></i></a>
+					</div>
+					<div class="account-login">
+						<a href="login.html" aria-labelledby="Log In"><button class="log-in" aria-labelledby="Log In">Login</button></a>
+						<a href="login.html" aria-labelledby="Sign Up"><button class="sign-up" aria-labelledby="Sign Up">Sign Up</button></a>
 					</div>
 				</nav>
 			</header>
 			<div class="catchPhrase">
-				<h1>One app all things money</h1>
+				<h1>
+					One app, <br />
+					all things money
+				</h1>
 				<p>From easy money management, to travel perks and investments. Open your account in a flash.</p>
-				<a href="login.html"><button class="sign-up">Get Free Account</button></a>
+				<a href="login.html" aria-labelledby="Log In"><button class="sign-up" aria-labelledby="Log In">Get Free Account</button></a>
 			</div>
 		</section>
 		<section class="everyday-essentials-box">
 			<div class="product-info">
-				<h3>Everyday Essentials</h3>
-				<h2>Send, spend and save smarter</h2>
+				<h2>Everyday Essentials</h2>
+				<span>Send, spend and save smarter</span>
 				<p>Make day-to-day spending a breeze with all things money in one place.</p>
-			</div>
-			<div class="grid-container">
-				<div class="card card1 rectangle">
-					<div class="card-text">
-						<h2>Pay and get paid, hassle-free</h2>
-						<p>Send and request money with a tap, split bills easily with anyone in 200+ countries</p>
-						<a href="#">Explore easy payments <i class="fa-solid fa-arrow-right"></i></a>
+				<div class="grid-container">
+					<div class="card card-blue rectangle">
+						<div class="card-text">
+							<h2>Pay and get paid, hassle-free</h2>
+							<p>Send and request money with a tap, split bills easily with anyone in 200+ countries</p>
+							<a href="#">Explore easy payments <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+						<div class="card-image">
+							<img src="./img/earth.webp" alt="earth" />
+						</div>
 					</div>
-					<div class="card-image">
-						<img src="./img/earth.webp" alt="earth" />
-					</div>
-				</div>
-				<div class="card card2 square">
-					<div class="card-text">
-						<h2>Earn up to 3% annualy interest, paid daily</h2>
-						<p>With our fixed ISA account your money will work for you, deposit it and we'll do the rest</p>
+					<div class="card card-white square">
+						<div class="card-text">
+							<h2>Earn up to 3% annualy interest, paid daily</h2>
+							<p>With our fixed ISA account your money will work for you, deposit it and we'll do the rest</p>
+							<a href="#">Start saving <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
 						<div class="card-image">
 							<img src="./img/interest.webp" alt="interest" />
 						</div>
-						<a href="#">Start saving <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
-				</div>
-				<div class="card card3 square">
-					<div class="card-text">
-						<h2>Get exclusive rewards and save as you spend</h2>
-						<p>With our new product every debit transaction have cashback on it and you will receive points</p>
-						<div class="card-image">
-							<img src="./img/percent.webp" alt="percent" />
+					<div class="card card-yellow square">
+						<div class="card-text">
+							<h2>Get exclusive rewards and save as you spend</h2>
+							<p>With our new product every debit transaction have cashback on it and you will receive points</p>
+							<a href="#">Browse rewards <i class="fa-solid fa-arrow-right"></i></a>
 						</div>
-						<a href="#">Browse cashbacks and discounts <i class="fa-solid fa-arrow-right"></i></a>
+						<div class="card-image">
+							<img src="./img/diamond.png" alt="percent" />
+						</div>
 					</div>
-				</div>
-				<div class="card card4 rectangle">
-					<div class="card-text">
-						<h2>Card with style and substance</h2>
-						<p>Our cards are more than just their good looks! Get instant payment notifications and manage card security in an app. Start spending right away with Google or Apple Pay</p>
-						<a href="#">Get card <i class="fa-solid fa-arrow-right"></i></a>
+					<div class="card card-gray rectangle">
+						<div class="card-text">
+							<h2>Card with style and substance</h2>
+							<p>Our cards are more than just their good looks! Get instant payment notifications and manage card security in an app. Start spending right away with Google or Apple Pay</p>
+							<a href="#">Get card <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
+						<div class="card-image">
+							<img src="./img/cc.webp" alt="earth" />
+						</div>
 					</div>
-					<div class="card-image">
-						<img src="./img/cc.webp" alt="earth" />
-					</div>
-				</div>
-				<div class="card card5 square">
-					<div class="card-text">
-						<h2>All your accounts in one place</h2>
-						<p>Sign in into your popular internet accounts like Paypal, Skrill Venmo and more</p>
+					<div class="card card-white square">
+						<div class="card-text">
+							<h2>All your accounts in one place</h2>
+							<p>Sign in into your popular internet accounts like Paypal, Skrill Venmo and more</p>
+							<a href="#">Check partners <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
 						<div class="card-image">
 							<img src="./img/payment.webp" alt="earth" />
 						</div>
-						<a href="#">Check partners <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
-				</div>
-				<div class="card card6 square">
-					<div class="card-text">
-						<h2>Block subscriptions on the go</h2>
-						<p>Whether you are going on vacations or feel like don't need subscription you have easy access to block it</p>
+					<div class="card card-blue square">
+						<div class="card-text">
+							<h2>Block subscriptions on the go</h2>
+							<p>Whether you are going on vacations or feel like don't need subscription you have easy access to block it</p>
+							<a href="#">Block subs now <i class="fa-solid fa-arrow-right"></i></a>
+						</div>
 						<div class="card-image">
 							<img src="./img/cancel_sb.webp" alt="earth" />
 						</div>
-						<a href="#">Check how it works <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="investments-box">
 			<div class="product-info">
-				<h3>Investments</h3>
-				<h2>Investments from just $1</h2>
+				<h2>Investments</h2>
+				<span>Investments from just $1</span>
 				<p>Create your portfolio and start trading with just few taps. Capital at risk.</p>
-			</div>
 			<div class="grid-container">
-				<div class="card card1 rectangle">
+				<div class="card card-gray rectangle">
 					<div class="card-text">
 						<h2>Go from cash to Crypto instantly</h2>
-						<p>Get secure Crypto wallet and realtime updates so you can supercharge your investments for less</p>
-						<p>Note: Not regulated, value can go down, tax maybe payble, capital at risk, do it at own sake, this is not an offer</p>
-						<a href="#">Get started with Crypto <i class="fa-solid fa-arrow-right"></i></a>
+						<p>Get secure Crypto wallet and realtime updates so you can supercharge your investments for less - this is not an offer, capital at risk.</p>
+						<a href="#">Open crypto wallet <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 					<div class="card-image">
 						<img src="./img/crypto.webp" alt="earth" />
 					</div>
 				</div>
-				<div class="card card2 square">
+				<div class="card card-blue square">
 					<div class="card-text">
 						<h2>Get involved into stock trading</h2>
-						<p>With our bank you can start your adventure with stock tradings with one simple tap - Capital at risk</p>
-						<div class="card-image">
-							<img src="./img/stocks.webp" alt="earth" />
-						</div>
+						<p>With our bank you can start your adventure with stock tradings with one simple tap - capital at risk.</p>
 						<a href="#">Explore stock trading <i class="fa-solid fa-arrow-right"></i></a>
 					</div>
+					<div class="card-image">
+						<img src="./img/stocks.webp" alt="earth" />
+					</div>
 				</div>
-				<div class="card card3 square">
+				<div class="card card-white square">
 					<div class="card-text">
 						<h2>Buy gold and silver instantly with our app</h2>
-						<p>Buy and sell gold/silver instantly with our new mobile app Note: Capital at risk, not FCA regulated, this is not a offer</p>
-						<div class="card-image">
-							<img src="./img/gold.webp" alt="earth" />
-						</div>
-						<a href="#">Browse cashbacks and discounts <i class="fa-solid fa-arrow-right"></i></a>
+						<p>Buy and sell gold/silver instantly with our new mobile app - this is not an offer, capital at risk.</p>
+						<a href="#">Browse brokers <i class="fa-solid fa-arrow-right"></i></a>
+					</div>
+					<div class="card-image">
+						<img src="./img/gold.webp" alt="earth" />
 					</div>
 				</div>
 			</div>
