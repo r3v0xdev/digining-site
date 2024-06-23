@@ -3,11 +3,12 @@ Site link: https://r3v0xdev.github.io/digining-site/
 First site, testing how github works, currently site works best on desktop, it's subject to change in future after making some amendmends or taking a full rewrite of code
 
 To be done ⚡
-- RWD
+
+- RWD ✅
 - Add more than landing page
-- Log in
+- Log in design ✅
 - Footer ✅
-- Restructurize files (scss to be split into few files, with values that are used commonly, add color palete etc.)
+- Restructurize files (scss to be split into few files, with values that are used commonly, add color palete etc.) ✅
 - And more
 
 Design of the site was inspired from Samsul Hanan at [Dribble](https://dribbble.com/)
